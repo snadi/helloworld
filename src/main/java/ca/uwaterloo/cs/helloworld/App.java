@@ -9,10 +9,10 @@ public class App
 {
     public static void main( String[] args )
     {
-       printMsg();
+       printMessage();
     }
 
-    public static void printMsg(){
+    public static void printMessage(){
         System.out.println( "Hello, world!" );
 
         Joiner joiner = Joiner.on("; ").skipNulls();
